@@ -1,0 +1,18 @@
+.principal-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 0;
+  .img-sub {
+    width: 350px;
+  }
+  .titulos-sub {
+    text-align: center;
+    margin: 90px 0px;
+    color: aliceblue;
+    .titulo-sub {
+      margin-bottom: 80px;
+    }
+  }
+}

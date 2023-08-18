@@ -1,0 +1,23 @@
+.combos {
+  padding: 90px 20px;
+  .title-combos {
+    color: aliceblue;
+    letter-spacing: 1px;
+  }
+  .item-combo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: aliceblue;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+      &:hover {
+        letter-spacing: 2.5px;
+        font-weight: bold;
+      }
+    }
+  }
+}

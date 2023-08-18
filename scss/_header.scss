@@ -1,0 +1,38 @@
+header {
+  background: rgba(39, 39, 39, 0.3);
+  backdrop-filter: blur(10px);
+  top: 0;
+  padding: 10px 0px;
+  /*box-shadow: 0 8px 35px 0 rgba(177, 177, 177, 0.3);*/
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  .navbar-brand {
+    color: aliceblue;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    &:hover {
+      color: aliceblue;
+      letter-spacing: 3px !important;
+    }
+  }
+  .navbar-toggler {
+    border: none !important;
+    color: aliceblue !important;
+  }
+  .nav-item {
+    .nav-link {
+      color: aliceblue;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+      transition: all 0.3s ease;
+      &:hover {
+        letter-spacing: 3px;
+      }
+    }
+    .active {
+      color: bisque !important;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.pie-pagina {
+  background-color: rgb(24, 24, 24);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    color: aliceblue;
+    .marca-nombre {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 2px;
+      .logo-sub-footer {
+        width: 100px;
+      }
+    }
+    .social-media {
+      margin-top: 20px;
+      svg {
+        text-decoration: none;
+        margin-right: 18px;
+        transition: all 0.3s ease;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+    .titulo-redes {
+      text-transform: capitalize;
+      letter-spacing: 2px;
+    }
+    .marcas-footer {
+      margin-top: 20px;
+      .titulo-marcas {
+        text-transform: capitalize;
+        letter-spacing: 2px;
+      }
+      .marcas {
+        text-transform: capitalize;
+      }
+    }
+    .titulo-contacto {
+      text-transform: capitalize;
+      letter-spacing: 2px;
+    }
+    .contacto-footer {
+      margin-top: 20px;
+      a {
+        text-decoration: none;
+        margin-right: 18px;
+      }
+      svg {
+        transition: all 0.3s ease;
+        text-decoration: none;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-size: 1.3rem;
+    }
+  }
+  .texto-copy {
+    margin-top: 50px;
+    color: aliceblue;
+    text-transform: uppercase;
+  }
+}

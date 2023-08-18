@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.inicio {
+  background-image: url("../img/sub-57.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.reservas {
+  background-image: url(../img/DSC_8159.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-color: rgb(24, 24, 24);*/
+}
+
+header {
+  background: rgba(39, 39, 39, 0.3);
+  backdrop-filter: blur(10px);
+  top: 0;
+  padding: 10px 0px;
+  /*box-shadow: 0 8px 35px 0 rgba(177, 177, 177, 0.3);*/
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header .navbar-brand {
+  color: aliceblue;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+header .navbar-brand:hover {
+  color: aliceblue;
+  letter-spacing: 3px !important;
+}
+header .navbar-toggler {
+  border: none !important;
+  color: aliceblue !important;
+}
+header .nav-item .nav-link {
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+header .nav-item .nav-link:hover {
+  letter-spacing: 3px;
+}
+header .nav-item .active {
+  color: bisque !important;
+  font-weight: bold;
+}
+
+.principal-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 0;
+}
+.principal-sub .img-sub {
+  width: 350px;
+}
+.principal-sub .titulos-sub {
+  text-align: center;
+  margin: 90px 0px;
+  color: aliceblue;
+}
+.principal-sub .titulos-sub .titulo-sub {
+  margin-bottom: 80px;
+}
+
+.combos {
+  padding: 90px 20px;
+}
+.combos .title-combos {
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+.combos .item-combo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.combos .item-combo a {
+  text-decoration: none;
+  color: aliceblue;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.combos .item-combo a:hover {
+  letter-spacing: 2.5px;
+  font-weight: bold;
+}
+
+.pie-pagina {
+  background-color: rgb(24, 24, 24);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pie-pagina .grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  color: aliceblue;
+}
+.pie-pagina .grupo1 .marca-nombre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+.pie-pagina .grupo1 .marca-nombre .logo-sub-footer {
+  width: 100px;
+}
+.pie-pagina .grupo1 .social-media {
+  margin-top: 20px;
+}
+.pie-pagina .grupo1 .social-media svg {
+  text-decoration: none;
+  margin-right: 18px;
+  transition: all 0.3s ease;
+}
+.pie-pagina .grupo1 .social-media svg:hover {
+  transform: scale(1.2);
+}
+.pie-pagina .grupo1 .titulo-redes {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.pie-pagina .grupo1 .marcas-footer {
+  margin-top: 20px;
+}
+.pie-pagina .grupo1 .marcas-footer .titulo-marcas {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.pie-pagina .grupo1 .marcas-footer .marcas {
+  text-transform: capitalize;
+}
+.pie-pagina .grupo1 .titulo-contacto {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.pie-pagina .grupo1 .contacto-footer {
+  margin-top: 20px;
+}
+.pie-pagina .grupo1 .contacto-footer a {
+  text-decoration: none;
+  margin-right: 18px;
+}
+.pie-pagina .grupo1 .contacto-footer svg {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.pie-pagina .grupo1 .contacto-footer svg:hover {
+  transform: scale(1.2);
+}
+.pie-pagina .grupo1 h4,
+.pie-pagina .grupo1 h5,
+.pie-pagina .grupo1 h6 {
+  font-size: 1.3rem;
+}
+.pie-pagina .texto-copy {
+  margin-top: 50px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=styles.css.map */
