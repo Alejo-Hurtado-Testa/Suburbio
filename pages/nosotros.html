@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Montserrat&family=Nunito&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=Caveat&family=Cinzel&family=Montserrat&family=Nunito&family=Rowdies&display=swap"
       rel="stylesheet"
     />
 
@@ -31,12 +31,10 @@
       href="../icon/Sintitulo-1_negro.png"
       type="image/x-icon"
     />
-
-    <script src="../assets/combos.js" defer></script>
     <title>Suburbio Club</title>
   </head>
   <body>
-    <div class="page-reservas">
+    <div class="nosotros">
       <header>
         <nav class="navbar navbar-expand-lg">
           <div class="container">
@@ -72,10 +70,12 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="nosotros.html">Quienes somos</a>
+                  <a class="nav-link active" href="nosotros.html"
+                    >Quienes somos</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="reservas.html">Reservas</a>
+                  <a class="nav-link" href="reservas.html">Reservas</a>
                 </li>
               </ul>
             </div>
@@ -83,21 +83,26 @@
         </nav>
       </header>
       <main>
-        <div class="reservas">
-          <div class="combos">
-            <h1 class="title-combos">Reservá tu combo preferido acá!</h1>
-            <div class="list-combos" id="listcombos"></div>
-          </div>
-          <div class="transporte">
-            <h1 class="title-transporte">Reserá tu transporte!</h1>
-          </div>
-          <div class="evento">
-            <h1 class="title-evento">Reservanos para tu fiesta privada!</h1>
-          </div>
-          <div class="zonavip">
-            <h1 class="title-zonavip">
-              ¿Queres asegurarte un lugar en el vip?
-            </h1>
+        <div class="principal-nosotros">
+          <h1 class="title-nos">SOBRE nosotros</h1>
+          <p class="text-nos">
+            Hola! Te saludamos! Somos un club social de la localidad de Tio
+            Pujio, CBA. Estamos ligados al desarrollo social, enfoncándonos en
+            crear un entorno saludable donde las personas pueda divertirse,
+            pasar un buen momento y compartir con amigos. <br />Te invitamos a
+            ser parte de nosotros y contruir juntos los mejores momentos!<br />Somos
+            Suburbio Club.
+          </p>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4195.004532691341!2d-63.35660005903554!3d-32.29364283931741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc59c28864c597%3A0x46b0ecdcba61ef6d!2sSuburbio%20Club!5e1!3m2!1ses-419!2sar!4v1693775049156!5m2!1ses-419!2sar"
+              width="770"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </main>

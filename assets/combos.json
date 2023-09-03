@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Combo 1",
+    "img": "../img/siames-logo-sinfondo.png",
+    "descripcion": "Vodka Siames + 4 Speed + 1 Agua"
+  },
+  {
+    "id": 2,
+    "nombre": "Combo 2",
+    "img": "../img/thumb_62267_default_big-removebg-preview.png",
+    "descripcion": "Sernova + 4 Speed + 1 Agua"
+  },
+  {
+    "id": 3,
+    "nombre": "Combo 3",
+    "img": "../img/158_smirnoff_logo-removebg-preview.png",
+    "descripcion": "Smirnoff + 4 Speed + 1 Agua"
+  },
+  {
+    "id": 4,
+    "nombre": "Combo 4",
+    "img": "../img/3264599bedf3dfc185b51ead2a6c28ad-removebg-preview.png",
+    "descripcion": "Skyy + 4 Speed + 1 Agua"
+  },
+  {
+    "id": 5,
+    "nombre": "Combo 5",
+    "img": "../img/Absolut-logo-removebg-preview.png",
+    "descripcion": "Absolut + 4 Speed + 1 Agua"
+  },
+  {
+    "id": 6,
+    "nombre": "Combo 6",
+    "img": "../img/roncayman-removebg-preview.png",
+    "descripcion": "Ron + 4 Speed + 1 Agua"
+  },
+  {
+    "id": 7,
+    "nombre": "Combo 7",
+    "img": "../img/Gordons-Gin-Logo-recortado.png",
+    "descripcion": "Gin Gordon + Tónica + 1 Agua"
+  },
+  {
+    "id": 8,
+    "nombre": "Combo 8",
+    "img": "../img/png-transparent-1845-2015-branca-anniversary-logo-fernet-branca-distilled-beverage-gin-liqueur-vodka-food-logo-vodka-removebg-preview.png",
+    "descripcion": "Fernet + 2 Cocas + 1 Agua"
+  }
+]

@@ -15,11 +15,20 @@ body {
   background-attachment: fixed;
 }
 
-.reservas {
+.page-reservas {
   background-image: url(../img/DSC_5083.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nosotros {
+  background-image: url(../img/DSC_7807.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -36,6 +45,7 @@ header .navbar-brand {
   color: aliceblue;
   letter-spacing: 2px;
   transition: all 0.3s ease;
+  margin: 0 !important;
 }
 header .navbar-brand:hover {
   color: aliceblue;
@@ -83,28 +93,91 @@ header .nav-item .active {
   font-family: "Caveat", cursive;
 }
 
-.combos {
-  padding: 90px 20px;
+.reservas {
+  margin: 90px 15px;
 }
-.combos .title-combos {
+.reservas .combos .title-combos {
   color: aliceblue;
   letter-spacing: 1px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 54px;
 }
-.combos .item-combo {
+.reservas .combos .item-combo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  list-style: none;
+  margin: 8vh 0;
 }
-.combos .item-combo a {
-  text-decoration: none;
+.reservas .combos .item-combo .item-descripcion {
+  margin-right: 8vw;
+  display: flex;
+  flex-direction: column;
+}
+.reservas .combos .item-combo .item-descripcion .combo-name {
+  text-transform: uppercase;
   color: aliceblue;
   letter-spacing: 1px;
+  font-size: 38px;
+}
+.reservas .combos .item-combo .item-descripcion .combo-descripcion {
+  font-size: 22px;
+  color: aliceblue;
+}
+.reservas .combos .item-combo .item-descripcion .btn-combo {
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  padding: 10px 0px;
+  background-color: aliceblue;
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+  font-size: 18px;
   transition: all 0.3s ease;
 }
-.combos .item-combo a:hover {
-  letter-spacing: 2.5px;
+.reservas .combos .item-combo .item-descripcion .btn-combo:hover {
+  background: transparent;
+  color: aliceblue;
+}
+.reservas .combos .item-combo .combo-img {
+  width: 320px;
+}
+.reservas .transporte .title-transporte {
+  color: aliceblue;
+  letter-spacing: 1px;
+  font-family: "Caveat", cursive;
   font-weight: bold;
+  font-size: 54px;
+}
+.reservas .evento .title-evento {
+  color: aliceblue;
+  letter-spacing: 1px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 54px;
+}
+.reservas .zonavip .title-zonavip {
+  color: aliceblue;
+  letter-spacing: 1px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 54px;
+}
+
+.title-nos,
+.text-nos,
+.title-nos2 {
+  color: aliceblue;
+}
+
+.text-nos {
+  background-color: rgb(17, 17, 17);
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
 }
 
 .pie-pagina {

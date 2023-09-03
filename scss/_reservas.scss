@@ -1,23 +1,80 @@
-.combos {
-  padding: 90px 20px;
-  .title-combos {
-    color: aliceblue;
-    letter-spacing: 1px;
-  }
-  .item-combo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    a {
-      text-decoration: none;
+.reservas {
+  margin: 90px 15px;
+  .combos {
+    .title-combos {
       color: aliceblue;
       letter-spacing: 1px;
-      transition: all 0.3s ease;
-      &:hover {
-        letter-spacing: 2.5px;
-        font-weight: bold;
+      font-family: 'Caveat', cursive;
+      font-weight: bold;
+      font-size: 54px;
+    }
+    .item-combo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 8vh 0;
+      .item-descripcion {
+        margin-right: 8vw;
+        display: flex;
+        flex-direction: column;
+        .combo-name {
+          text-transform: uppercase;
+          color: aliceblue;
+          letter-spacing: 1px;
+          font-size: 38px;
+        }
+        .combo-descripcion {
+          font-size: 22px;
+          color: aliceblue;
+        }
+        .btn-combo {
+          border: 1px solid aliceblue;
+          border-radius: 10px;
+          padding: 10px 0px;
+          background-color: aliceblue;
+          color: rgb(14, 14, 14);
+          font-weight: bold;
+          font-size: 18px;
+          transition: all 0.3s ease;
+          &:hover {
+            background: transparent;
+            color: aliceblue;
+          }
+        }
       }
+      .combo-img {
+        width: 320px;
+      }
+    }
+  }
+
+  .transporte {
+    .title-transporte {
+      color: aliceblue;
+      letter-spacing: 1px;
+      font-family: 'Caveat', cursive;
+      font-weight: bold;
+      font-size: 54px;
+    }
+  }
+
+  .evento {
+    .title-evento {
+      color: aliceblue;
+      letter-spacing: 1px;
+      font-family: 'Caveat', cursive;
+      font-weight: bold;
+      font-size: 54px;
+    }
+  }
+
+  .zonavip {
+    .title-zonavip {
+      color: aliceblue;
+      letter-spacing: 1px;
+      font-family: 'Caveat', cursive;
+      font-weight: bold;
+      font-size: 54px;
     }
   }
 }
