@@ -1,7 +1,7 @@
 const listaCombos = document.querySelector('#listcombos');
 
-const listarCombos = async () => {
-  const combos = await pedirCombos();
+const listarCombos = (datos) => {
+  const combos = datos;
   combos.forEach((element) => {
     const { nombre, img, descripcion } = element;
     return (listaCombos.innerHTML += `
@@ -23,6 +23,10 @@ const listarCombos = async () => {
   });
 };
 
+fetch('../assets/combosList.json')
+  .then((res) => res.json())
+  .then((data) => listarCombos(data));
+/*
 async function pedirCombos() {
   try {
     const res = await fetch('../assets/combosList.json');
@@ -34,3 +38,4 @@ async function pedirCombos() {
 }
 
 listarCombos();
+*/
