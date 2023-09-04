@@ -25,7 +25,7 @@ const listarCombos = async () => {
 
 async function pedirCombos() {
   try {
-    const res = await fetch('combos.json');
+    const res = await fetch('../assets/combosList.json');
     const data = await res.json();
     return data;
   } catch (error) {
