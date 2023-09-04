@@ -23,7 +23,7 @@ const listarCombos = (datos) => {
   });
 };
 
-fetch('../assets/combosList.json')
+fetch('combosList.json')
   .then((res) => res.json())
   .then((data) => listarCombos(data));
 /*
