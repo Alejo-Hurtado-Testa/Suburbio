@@ -125,6 +125,10 @@ header .nav-item .active {
   color: aliceblue;
 }
 .reservas .combos .item-combo .item-descripcion .btn-combo {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid aliceblue;
   border-radius: 10px;
   padding: 10px 0px;
@@ -141,39 +145,79 @@ header .nav-item .active {
 .reservas .combos .item-combo .combo-img {
   width: 320px;
 }
+.reservas .transporte {
+  margin: 90px 0;
+}
 .reservas .transporte .title-transporte {
   color: aliceblue;
   letter-spacing: 1px;
   font-family: "Caveat", cursive;
   font-weight: bold;
-  font-size: 54px;
+  font-size: 3.5rem;
+}
+.reservas .transporte .text-transporte {
+  color: aliceblue;
+  font-size: 1.7rem;
+}
+.reservas .evento {
+  margin: 90px 0;
 }
 .reservas .evento .title-evento {
   color: aliceblue;
   letter-spacing: 1px;
   font-family: "Caveat", cursive;
   font-weight: bold;
-  font-size: 54px;
+  font-size: 3.5rem;
 }
-.reservas .zonavip .title-zonavip {
+.reservas .evento .text-evento {
   color: aliceblue;
-  letter-spacing: 1px;
-  font-family: "Caveat", cursive;
+  font-size: 1.7rem;
+}
+.reservas .btn-consultar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reservas .btn-consultar .btn-consultar-wsp {
+  padding: 20px 35px;
+  border: 1px solid aliceblue;
+  border-radius: 20px;
+  color: rgb(14, 14, 14);
+  text-decoration: none;
+  background-color: aliceblue;
+  text-transform: capitalize;
   font-weight: bold;
-  font-size: 54px;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+.reservas .btn-consultar .btn-consultar-wsp:hover {
+  color: aliceblue;
+  cursor: pointer;
+  background: transparent;
 }
 
-.title-nos,
-.text-nos,
-.title-nos2 {
+.principal-nosotros {
+  margin: 100px 0;
+}
+.principal-nosotros .title-nos-ubic {
+  margin: 80px 0;
+  text-transform: uppercase;
+  text-align: center;
   color: aliceblue;
 }
-
-.text-nos {
+.principal-nosotros .title-nos {
+  margin: 80px 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+}
+.principal-nosotros .text-nos {
+  color: aliceblue;
+  font-size: 1.3rem;
+  text-align: center;
   background-color: rgb(17, 17, 17);
 }
-
-.map {
+.principal-nosotros .map {
   display: flex;
   justify-content: center;
   align-items: center;

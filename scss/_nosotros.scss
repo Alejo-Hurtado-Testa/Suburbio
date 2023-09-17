@@ -1,16 +1,30 @@
-.title-nos,
-.text-nos,
-.title-nos2 {
-  color: aliceblue;
-}
+.principal-nosotros {
+  margin: 100px 0;
+  .title-nos-ubic {
+    margin: 80px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+  }
 
-.text-nos {
-  background-color: rgb(17, 17, 17);
-}
+  .title-nos {
+    margin: 80px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+  }
 
-.map {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0;
+  .text-nos {
+    color: aliceblue;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+  }
+
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
 }

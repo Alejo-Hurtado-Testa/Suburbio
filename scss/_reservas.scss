@@ -28,6 +28,10 @@
           color: aliceblue;
         }
         .btn-combo {
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           border: 1px solid aliceblue;
           border-radius: 10px;
           padding: 10px 0px;
@@ -49,32 +53,55 @@
   }
 
   .transporte {
+    margin: 90px 0;
     .title-transporte {
       color: aliceblue;
       letter-spacing: 1px;
       font-family: 'Caveat', cursive;
       font-weight: bold;
-      font-size: 54px;
+      font-size: 3.5rem;
+    }
+    .text-transporte {
+      color: aliceblue;
+      font-size: 1.7rem;
     }
   }
 
   .evento {
+    margin: 90px 0;
     .title-evento {
       color: aliceblue;
       letter-spacing: 1px;
       font-family: 'Caveat', cursive;
       font-weight: bold;
-      font-size: 54px;
+      font-size: 3.5rem;
+    }
+    .text-evento {
+      color: aliceblue;
+      font-size: 1.7rem;
     }
   }
 
-  .zonavip {
-    .title-zonavip {
-      color: aliceblue;
-      letter-spacing: 1px;
-      font-family: 'Caveat', cursive;
+  .btn-consultar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn-consultar-wsp {
+      padding: 20px 35px;
+      border: 1px solid aliceblue;
+      border-radius: 20px;
+      color: rgb(14, 14, 14);
+      text-decoration: none;
+      background-color: aliceblue;
+      text-transform: capitalize;
       font-weight: bold;
-      font-size: 54px;
+      font-size: 1.3rem;
+      transition: all 0.3s ease;
+      &:hover {
+        color: aliceblue;
+        cursor: pointer;
+        background: transparent;
+      }
     }
   }
 }

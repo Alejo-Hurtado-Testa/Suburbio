@@ -11,7 +11,7 @@ const listarCombos = async () => {
                   <p class="combo-descripcion">
                     ${descripcion}
                   </p>
-                  <button class="btn-combo">Reservar</button>
+                  <a href="https://api.whatsapp.com/send?phone=1122334455&text=Hola!+Me+gustaria+reservar+el+combo:+${nombre}!" target="_blank" class="btn-combo">Reservar</a>
                 </div>
                 <img
                   src=${img}
