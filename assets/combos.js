@@ -1,4 +1,4 @@
-const listaCombos = document.querySelector('#listcombos');
+const listaCombos = document.querySelector("#listcombos");
 
 const listarCombos = async () => {
   const combos = await pedirCombos();
@@ -11,7 +11,7 @@ const listarCombos = async () => {
                   <p class="combo-descripcion">
                     ${descripcion}
                   </p>
-                  <a href="https://api.whatsapp.com/send?phone=1122334455&text=Hola!+Me+gustaria+reservar+el+combo:+${nombre}!" target="_blank" class="btn-combo">Reservar</a>
+                  <a href="https://api.whatsapp.com/send?phone=3534415620&text=Hola!+Me+gustaria+reservar+el+combo:+${nombre}!" target="_blank" class="btn-combo">Reservar</a>
                 </div>
                 <img
                   src=${img}
@@ -22,14 +22,10 @@ const listarCombos = async () => {
         `);
   });
 };
-/*
-fetch('combosList.json')
-  .then((res) => res.json())
-  .then((data) => listarCombos(data));
-*/
+
 async function pedirCombos() {
   try {
-    const res = await fetch('../assets/combosList.json');
+    const res = await fetch("../assets/combosList.json");
     const data = await res.json();
     return data;
   } catch (error) {

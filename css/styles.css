@@ -300,4 +300,10 @@ header .nav-item .active {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .combo-img {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
