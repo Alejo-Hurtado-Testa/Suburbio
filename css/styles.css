@@ -216,6 +216,7 @@ header .nav-item .active {
   font-size: 1.3rem;
   text-align: center;
   background-color: rgb(17, 17, 17);
+  padding: 60px 130px;
 }
 .principal-nosotros .map {
   display: flex;
