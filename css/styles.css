@@ -110,6 +110,7 @@ header .nav-item .active {
   margin: 8vh 0;
 }
 .reservas .combos .item-combo .item-descripcion {
+  width: 21rem;
   margin-right: 8vw;
   display: flex;
   flex-direction: column;
@@ -143,7 +144,7 @@ header .nav-item .active {
   color: aliceblue;
 }
 .reservas .combos .item-combo .combo-img {
-  width: 320px;
+  width: 20rem;
 }
 .reservas .transporte {
   margin: 90px 0;
